@@ -20,7 +20,7 @@ setup(
     maintainer="Guilherme Polo",
     url="https://github.com/gpip/cBKTree",
     ext_modules=cythonize([Extension(
-        "cbktree/cyHamDb",
+        "cbktree.cyHamDb",
         sources=["lib/cyHamDb.pyx"],
         libraries=["stdc++"],
         include_dirs=['lib'],
